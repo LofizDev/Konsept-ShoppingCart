@@ -1,0 +1,205 @@
+.banner-contact  {
+    background-image: url(../../../assets/images/contact.jpg);
+    height: 420px;
+    background-position: center ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-contact h1 {
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.33em;
+    letter-spacing: .23em;
+}
+.contact__info {
+    max-width: 1300px;
+    margin:150px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact__info-item {
+    margin-right: 40px;
+}
+.contact__info-item img {
+    width: 285px;
+}
+.contact__info-item h4 {
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1d1d1d;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: .12em;
+    margin: 25px 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+.contact__info-item p {
+    font-size: 17px;
+    color: #8b8b8b;
+    margin-top: 4px;
+}
+/* CONTACT QUESTIONS */
+.contact__questions {
+    max-width: 1300px;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contact__questions-left span {
+    font-family: "EB Garamond",serif;
+    font-size: 18px;
+    font-style: italic;
+    color: #8b8b8b;
+}
+.contact__questions-left h2 {
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1d1d1d;
+    font-size: 29px;
+    line-height: 1.55em;
+    letter-spacing: .2em;
+    margin: 15px 0;
+}
+.contact__questions-left p {
+    font-family: "Open Sans",sans-serif;
+    font-size: 17px;
+    max-width: 490px ;
+    line-height: 1.8em;
+    font-weight: 400;
+    color: #8b8b8b;
+}
+.question-left-locations {
+    display: flex;
+}
+.name-location {
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1d1d1d;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: .12em;
+    margin: 29px 0px;
+}
+.locations-store {
+    margin-left: 50px;
+}
+.douple-input {
+    display: flex;
+}
+.email-input {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.douple-input input {
+    width: 320px;
+    border: 1px solid #ddd;
+    padding: 12px;
+    font-family: "EB Garamond",serif;
+    font-style: italic;
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+}
+.input-commnents {
+    width: 100%;
+    height: 220px;
+    border: 1px solid #ddd;
+    outline: 0;
+    padding: 0 20px;
+    font-size: 18px;
+    font-family: "EB Garamond",serif;
+    font-style: italic;
+}
+
+.question-right-input {
+    position: relative;
+}
+.question-right-input button {
+    width: 180px;
+    cursor: pointer;
+    height: 54px;
+    background-color: transparent;
+    border: 1px solid rgb(100, 99, 99);
+    margin-top: 20px;
+    position: absolute;
+    right: 0;
+}
+/* Resposive */
+@media only screen and (max-width: 1024px) { 
+    .banner-contact  {
+        height: 280px;
+    }
+    .contact__questions {
+        flex-direction: column;
+        align-items: center;
+    }.contact__questions-left p {
+        max-width: 670px;
+    }
+    .question-right-input {
+        margin-top: 50px;
+    }
+    .contact__info {
+        justify-content: center;
+    }
+    .contact__info-item {
+        margin: 20px 20px;
+    }
+    .contact__info-item img {
+        width: 364px;
+    }
+} 
+@media only screen and (max-width: 768px) { 
+    .contact__info-item img {
+        width: 280px;
+    }
+} 
+@media only screen and (max-width: 600px) { 
+    .contact__info-item img {
+        width: 420px;
+    }
+    .contact__questions-left p {
+        max-width: 450px;
+    }.douple-input input {
+        width: 220px;
+    }
+} 
+@media only screen and (max-width: 420px) { 
+    .contact__info-item img {
+        width: 300px;
+    }
+    .douple-input {
+        flex-direction: column;
+    }
+    .question-left-locations {
+        flex-direction: column;
+        /* align-items: center; */
+        margin-left: 30px;
+    }.locations-store  {
+        margin-left: 0;
+    }
+    .email-input {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .douple-input input {
+        width: 280px;
+    }
+    .text-p  {
+        max-width: 280px;
+        margin-left: 30px;
+    }.contact__questions-left h2 {
+        min-width: 200px;
+        margin-left: 30px;
+    }.contact__questions-left span {
+        margin-left: 30px;
+    }
+} 

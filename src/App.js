@@ -1,25 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route ,Redirect} from 'react-router-dom'
+import ScrollToTopRouter from './component/Main/ScrollToTopRouter'
+import ScrollToTop from './component/Main/ScrollToTop';
+import Footer from '.././src/component/Layout/LayoutFooter/Footer/Footer'
+import Main from "./component/Main/Main";
+import ShoppingCart from './component/Pages/Shopping-Cart/ShoppingCart'
+import PageNotFound from "./component/HomePage/PageNotFound/PageNotFound";
+import Detail from './component/Detail/Detail';
+import Shop from './component/ShopCategory/Shop'
+import Contact from './component/Pages/Contact/Contact'
+import About from './component/Pages/About/About'
+import checkout from './component/Pages/Checkout/Checkout'
+// Redux
+import { connect } from 'react-redux'
 
-function App() {
+function App({ current }) {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+    <Router>
+      <ScrollToTop/>
+      <ScrollToTopRouter/>
+       <Switch>
+       <Route path='/'exact component={Main}></Route>
+       <Route path='/CART' exact component={ShoppingCart}></Route>
+       <Route path='/SHOP' exact component={Shop}></Route>
+       <Route path='/ABOUT' exact component={About}></Route>
+       <Route path='/CONTACT' exact component={Contact}></Route>
+       <Route path='/CHECKOUT' exact component={checkout}></Route>
+
+       <Route path='/pagenotfound' component={PageNotFound}></Route>
+       <Route path='/product'  component={Detail}></Route>
+       {!current ? (
+            <Redirect to="/" />
+          ) : (
+            <Route exact path="/product/:id" component={Detail} />
+          )}
+
+       </Switch>
+        </Router>
+        <Footer/>
+</>
   );
 }
 
-export default App;
+const mapStateToProps = (state) => {
+  return {
+    current: state.shop.currentItem,
+  };
+};
+
+
+export default connect(mapStateToProps)(App);

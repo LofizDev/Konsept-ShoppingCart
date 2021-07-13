@@ -1,0 +1,18 @@
+.banner-about  {
+    height: 420px;
+    background-image: url(../../../assets/images/about.jpg);
+    background-position: center ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-about h1 {
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.33em;
+    letter-spacing: .23em;
+}

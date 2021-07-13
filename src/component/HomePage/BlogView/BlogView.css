@@ -1,0 +1,29 @@
+
+.banner__container-header {
+    background: #BDCED3;
+    width: 100%;
+    height: 110px;
+    font-family: the gwathmey;
+    line-height: 1.8;
+    color: #ffffff;
+    font-size: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and ( max-width: 1024px) {
+    .banner__container img {
+        margin: 0 ;
+    }
+    .banner__container-content {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: auto;
+    }
+    
+    
+    
+}
