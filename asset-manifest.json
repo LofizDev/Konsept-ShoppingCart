@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Konsept-ShoppingCart/static/css/main.46582c85.chunk.css",
-    "main.js": "/Konsept-ShoppingCart/static/js/main.435ae1f9.chunk.js",
-    "main.js.map": "/Konsept-ShoppingCart/static/js/main.435ae1f9.chunk.js.map",
+    "main.css": "/Konsept-ShoppingCart/static/css/main.8d99ea36.chunk.css",
+    "main.js": "/Konsept-ShoppingCart/static/js/main.67d0ec52.chunk.js",
+    "main.js.map": "/Konsept-ShoppingCart/static/js/main.67d0ec52.chunk.js.map",
     "runtime-main.js": "/Konsept-ShoppingCart/static/js/runtime-main.e56c9e02.js",
     "runtime-main.js.map": "/Konsept-ShoppingCart/static/js/runtime-main.e56c9e02.js.map",
     "static/css/2.0405cd9b.chunk.css": "/Konsept-ShoppingCart/static/css/2.0405cd9b.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.b4b8ef0e.chunk.js.map": "/Konsept-ShoppingCart/static/js/2.b4b8ef0e.chunk.js.map",
     "index.html": "/Konsept-ShoppingCart/index.html",
     "static/css/2.0405cd9b.chunk.css.map": "/Konsept-ShoppingCart/static/css/2.0405cd9b.chunk.css.map",
-    "static/css/main.46582c85.chunk.css.map": "/Konsept-ShoppingCart/static/css/main.46582c85.chunk.css.map",
+    "static/css/main.8d99ea36.chunk.css.map": "/Konsept-ShoppingCart/static/css/main.8d99ea36.chunk.css.map",
     "static/js/2.b4b8ef0e.chunk.js.LICENSE.txt": "/Konsept-ShoppingCart/static/js/2.b4b8ef0e.chunk.js.LICENSE.txt",
     "static/media/BlogMasonary-1.475f8e52.jpg": "/Konsept-ShoppingCart/static/media/BlogMasonary-1.475f8e52.jpg",
     "static/media/BlogMasonary-2.929c4dc2.jpg": "/Konsept-ShoppingCart/static/media/BlogMasonary-2.929c4dc2.jpg",
@@ -36,20 +36,20 @@
     "static/media/insta.dad83496.png": "/Konsept-ShoppingCart/static/media/insta.dad83496.png",
     "static/media/insta2.fb7d3a40.png": "/Konsept-ShoppingCart/static/media/insta2.fb7d3a40.png",
     "static/media/insta4.16c3d0c2.png": "/Konsept-ShoppingCart/static/media/insta4.16c3d0c2.png",
-    "static/media/love.fc5df564.svg": "/Konsept-ShoppingCart/static/media/love.fc5df564.svg",
+    "static/media/love.99cd00e1.svg": "/Konsept-ShoppingCart/static/media/love.99cd00e1.svg",
     "static/media/slide1.png": "/Konsept-ShoppingCart/static/media/slide1.ac299c33.png",
     "static/media/slide12.png": "/Konsept-ShoppingCart/static/media/slide12.93e6d89e.png",
     "static/media/slide3.png": "/Konsept-ShoppingCart/static/media/slide3.65a20586.png",
     "static/media/slide6.png": "/Konsept-ShoppingCart/static/media/slide6.23a18f6e.png",
     "static/media/slide8.png": "/Konsept-ShoppingCart/static/media/slide8.a9304df5.png",
-    "static/media/user.90fc5115.svg": "/Konsept-ShoppingCart/static/media/user.90fc5115.svg",
-    "static/media/view.1bda7e69.svg": "/Konsept-ShoppingCart/static/media/view.1bda7e69.svg"
+    "static/media/user.5e3265a0.svg": "/Konsept-ShoppingCart/static/media/user.5e3265a0.svg",
+    "static/media/view.2026382a.svg": "/Konsept-ShoppingCart/static/media/view.2026382a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e56c9e02.js",
     "static/css/2.0405cd9b.chunk.css",
     "static/js/2.b4b8ef0e.chunk.js",
-    "static/css/main.46582c85.chunk.css",
-    "static/js/main.435ae1f9.chunk.js"
+    "static/css/main.8d99ea36.chunk.css",
+    "static/js/main.67d0ec52.chunk.js"
   ]
 }
