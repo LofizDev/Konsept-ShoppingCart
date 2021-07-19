@@ -2,11 +2,13 @@
     margin: 0 110px;
     display: flex;
 }
+
 .detail__container-right {
     padding-left: 70px;
 }
+
 .detail__container-right h1 {
-    font-family: "Josefin Sans",sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
     color: #1d1d1d;
     font-size: 40px;
@@ -16,14 +18,16 @@
     -ms-word-wrap: break-word;
     word-wrap: break-word;
 }
+
 .detail-price {
-    font-family: "EB Garamond",serif;
+    font-family: "EB Garamond", serif;
     font-size: 20px;
     font-style: italic;
     color: #1d1d1d;
 }
+
 .detail-sub {
-    font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     margin-top: 25px;
     line-height: 1.8em;
@@ -42,25 +46,29 @@
     align-items: center;
     height: 54px;
     border: 1px solid #8b8b8b;
-    font-family: "EB Garamond",serif;
+    font-family: "EB Garamond", serif;
     font-size: 18px;
     font-weight: 400;
     font-style: italic;
     color: #1d1d1d;
 }
+
 .detail-key {
     display: flex;
     flex-direction: column;
 }
+
 .detail-key-p {
     display: flex;
     align-items: center;
 }
+
 .detail-key-p span {
     margin-top: 5px;
 }
+
 .detail-key-p p {
-    font-family: "EB Garamond",serif;
+    font-family: "EB Garamond", serif;
     font-size: 17px;
     margin-bottom: 0px;
     margin-left: 9px;
@@ -71,11 +79,13 @@
     transition: .4s linear;
     line-height: 1.8em;
 }
+
 .detail-key-p p:hover {
     color: #1d1d1d;
 }
+
 .detail-key span {
-    font-family: "Josefin Sans",sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
     color: #1d1d1d;
     font-size: 13px;
@@ -83,13 +93,15 @@
     letter-spacing: .2em;
     line-height: 2.7em;
 }
+
 .detail-selector {
     display: flex;
     justify-content: center;
-    margin:80px 110px ;
+    margin: 80px 110px;
     align-items: center;
     border-bottom: 1px solid #ddd;
 }
+
 .detail-selector p {
     display: block;
     position: relative;
@@ -97,7 +109,7 @@
     border-bottom: 1px solid transparent;
     padding: 0 3px 11px;
     cursor: pointer;
-    font-family: "Josefin Sans",sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     color: #242424;
@@ -108,6 +120,7 @@
     letter-spacing: .2em;
     position: relative;
 }
+
 .detail-selector p::after {
     content: '';
     position: absolute;
@@ -115,24 +128,29 @@
     width: 0px;
     left: 0;
     height: 1px;
-    transition:  .2s ease-out;
+    transition: .2s ease-out;
     transition-duration: 0.2s;
     background-color: #000000;
     transition-timing-function: ease-out;
 }
+
 .detail-selector p:hover::after {
     width: 100%;
 }
+
 .content-tabs {
     display: none;
 }
+
 .active-content-tabs {
     display: block;
 }
+
 .content-tabs {
     position: relative;
     margin-bottom: 80px;
 }
+
 .active-tabs::before {
     content: '';
     position: absolute;
@@ -140,18 +158,19 @@
     width: 100%;
     left: 0;
     height: 1px;
-    transition:  .2s ease-out;
+    transition: .2s ease-out;
     transition-duration: 0.2s;
     background-color: #000000;
     transition-timing-function: ease-out;
 }
+
 /* custom tab content */
 #tab1 p {
     max-width: 1140px;
     transform: translateY(-30px);
     text-align: center;
     margin: auto;
-    font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 15px;
     line-height: 1.8em;
     font-weight: 400;
@@ -159,7 +178,7 @@
 }
 
 #tab2 h6 {
-    font-family: "Josefin Sans",sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     color: #1d1d1d;
@@ -169,15 +188,17 @@
     margin: 20px 0;
     letter-spacing: .2em;
 }
+
 .tab2-h6 {
     transform: translateY(-30px);
 }
+
 .tab2-h61 {
     transform: translateY(-30px);
 }
 
 #tab2 span {
-    font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 15px;
     line-height: 1.8em;
     font-weight: 400;
@@ -190,12 +211,14 @@
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
 }
+
 #tab3 {
     margin: 0 110px;
 }
+
 #tab3 h6 {
     margin-bottom: 14px;
-    font-family: "Josefin Sans",sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     color: #1d1d1d;
@@ -203,8 +226,9 @@
     line-height: 1.6em;
     letter-spacing: .2em;
 }
+
 #tab3 p {
-    font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 15px;
     line-height: 1.8em;
     font-weight: 400;
@@ -213,6 +237,7 @@
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
 }
+
 .tabinput {
     width: 100%;
     height: 216px;
@@ -220,26 +245,31 @@
     outline: 0;
     border: 1px solid #ddd;
 }
+
 .tabinput::placeholder {
     position: absolute;
     top: 17px;
     left: 17px;
 }
+
 .input-parent {
     display: flex;
     margin-top: 20px;
     justify-content: space-between;
 }
+
 .input-parent input {
     width: 640px;
     height: 48px;
     border: 1px solid #ddd;
 }
+
 .input-parent input::placeholder {
     position: absolute;
     top: 15px;
     left: 12px;
 }
+
 #tab3 button {
     width: 155px;
     height: 54px;
@@ -250,28 +280,35 @@
     transition: .6s ease;
     margin-bottom: 40px;
 }
+
 #tab3 button:hover {
     border-color: #1d1d1d;
 }
+
 /* Responsive -- */
 @media only screen and ( max-width: 1024px) {
     .detail__container-left img {
         width: 320px;
-    } 
+    }
+
     #tab1 p {
         max-width: 900px;
     }
 }
+
 @media only screen and ( max-width: 600px) {
     .detail__container-left img {
         width: 230px;
-    } 
+    }
+
     #tab1 p {
         max-width: 900px;
     }
+
     .detail__container {
         margin: 0 40px;
     }
+
     .detail__container-right {
         padding-left: 40px;
     }
@@ -280,30 +317,37 @@
 @media only screen and ( max-width: 420px) {
     .detail__container-left img {
         width: 270px;
-    } 
+    }
+
     #tab1 p {
         max-width: 900px;
     }
+
     .detail__container {
         margin: 0 40px;
         flex-direction: column !important;
     }
+
     .detail__container-right {
         padding-left: 0px;
         margin-top: 40px;
     }
+
     .tabs {
         font-size: 10px !important;
     }
+
     .input-parent {
         flex-direction: column;
     }
+
     .input-parent input {
         width: 350px;
         margin-top: 20px;
     }
+
     #tab3 {
-        margin:  0 20px;
+        margin: 0 20px;
     }
 
 }

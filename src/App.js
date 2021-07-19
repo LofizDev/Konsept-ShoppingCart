@@ -1,45 +1,44 @@
-import { BrowserRouter as Router, Switch, Route ,Redirect} from 'react-router-dom'
-import ScrollToTopRouter from './component/Main/ScrollToTopRouter'
+import {BrowserRouter as Router, Redirect, Route, Switch} from 'react-router-dom';
+import ScrollToTopRouter from './component/Main/ScrollToTopRouter';
 import ScrollToTop from './component/Main/ScrollToTop';
-import Footer from '.././src/component/Layout/LayoutFooter/Footer/Footer'
-import Main from "./component/Main/Main";
-import ShoppingCart from './component/Pages/Shopping-Cart/ShoppingCart'
-import PageNotFound from "./component/HomePage/PageNotFound/PageNotFound";
+import Footer from '.././src/component/Layout/LayoutFooter/Footer/Footer';
+import Main from './component/Main/Main';
+import ShoppingCart from './component/Pages/Shopping-Cart/ShoppingCart';
+import PageNotFound from './component/HomePage/PageNotFound/PageNotFound';
 import Detail from './component/Detail/Detail';
-import Shop from './component/ShopCategory/Shop'
-import Contact from './component/Pages/Contact/Contact'
-import About from './component/Pages/About/About'
-import checkout from './component/Pages/Checkout/Checkout'
+import Shop from './component/ShopCategory/Shop';
+import Contact from './component/Pages/Contact/Contact';
+import About from './component/Pages/About/About';
+import checkout from './component/Pages/Checkout/Checkout';
 // Redux
-import { connect } from 'react-redux'
+import {connect} from 'react-redux';
+import {UrlNames} from './UrlNames';
 
-function App({ current }) {
-  
+function App({current}) {
   return (
-   <>
-    <Router>
-      <ScrollToTop/>
-      <ScrollToTopRouter/>
-       <Switch>
-       <Route path='/'exact component={Main}></Route>
-       <Route path='/CART' exact component={ShoppingCart}></Route>
-       <Route path='/SHOP' exact component={Shop}></Route>
-       <Route path='/ABOUT' exact component={About}></Route>
-       <Route path='/CONTACT' exact component={Contact}></Route>
-       <Route path='/CHECKOUT' exact component={checkout}></Route>
+          <>
+            <Router>
+              <ScrollToTop/>
+              <ScrollToTopRouter/>
+              <Switch>
+                <Route path={`${UrlNames.HOME}`} exact component={Main}/>
+                <Route path={`${UrlNames.CART}`} exact component={ShoppingCart}/>
+                <Route path={`${UrlNames.SHOP}`} exact component={Shop}/>
+                <Route path={`${UrlNames.ABOUT}`} exact component={About}/>
+                <Route path={`${UrlNames.CONTACT}`} exact component={Contact}/>
+                <Route path={`${UrlNames.CHECKOUT}`} exact component={checkout}/>
+                <Route path={`${UrlNames.NOT_FOUND}`} component={PageNotFound}/>
+                <Route path={`${UrlNames.PRODUCT}`} component={Detail}/>
+                {!current ? (
+                        <Redirect to="/"/>
+                ) : (
+                        <Route exact path={`${UrlNames.PRODUCT_ID}`} component={Detail}/>
+                )}
 
-       <Route path='/pagenotfound' component={PageNotFound}></Route>
-       <Route path='/product'  component={Detail}></Route>
-       {!current ? (
-            <Redirect to="/" />
-          ) : (
-            <Route exact path="/product/:id" component={Detail} />
-          )}
-
-       </Switch>
-        </Router>
-        <Footer/>
-</>
+              </Switch>
+            </Router>
+            <Footer/>
+          </>
   );
 }
 
@@ -48,6 +47,4 @@ const mapStateToProps = (state) => {
     current: state.shop.currentItem,
   };
 };
-
-
 export default connect(mapStateToProps)(App);

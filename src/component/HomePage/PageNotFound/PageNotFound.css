@@ -3,48 +3,55 @@
     width: 100% !important;
     overflow: hidden;
     height: 100vh;
-    background: linear-gradient(90deg, rgba(47,54,64,1) 23%, rgba(24,27,32,1) 100%);
-  }
-  .button--active {
+    background: linear-gradient(90deg, rgba(47, 54, 64, 1) 23%, rgba(24, 27, 32, 1) 100%);
+}
+
+.button--active {
     height: 35px;
-  } 
-  .moon {
-    background: linear-gradient(90deg, rgba(208,208,208,1) 48%, rgba(145,145,145,1) 100%);
+}
+
+.moon {
+    background: linear-gradient(90deg, rgba(208, 208, 208, 1) 48%, rgba(145, 145, 145, 1) 100%);
     position: absolute;
     top: -100px;
     left: -300px;
     width: 900px;
     height: 900px;
     border-radius: 100%;
-    box-shadow: 0px 0px 30px -4px rgba(0,0,0,0.5)
-  }
-  .crater {
+    box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.5)
+}
+
+.crater {
     position: absolute;
     border-radius: 100%;
     opacity: 0.6;
-    background: linear-gradient(90deg, rgba(122,122,122,1) 38%, rgba(195,195,195,1) 100%);
-  }
-  .crater1 {
+    background: linear-gradient(90deg, rgba(122, 122, 122, 1) 38%, rgba(195, 195, 195, 1) 100%);
+}
+
+.crater1 {
     width: 60px;
     height: 180px;
     top: 250px;
     left: 500px;
-  }
-  .crater2 {
+}
+
+.crater2 {
     width: 40px;
     height: 80px;
     top: 650px;
     left: 340px;
     transform: rotate(55deg);
-  }
-  .crater3 {
+}
+
+.crater3 {
     width: 65px;
     height: 120px;
     top: -20px;
     left: 40px;
     transform: rotate(55deg);
-  }
-  .star {
+}
+
+.star {
     background: grey;
     position: absolute;
     width: 5px;
@@ -56,57 +63,68 @@
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-  }
-  @keyframes shimmer{
-    from{
-      opacity: 0;
+}
+
+@keyframes shimmer {
+    from {
+        opacity: 0;
     }
     to {
-      opacity: 0.7;
+        opacity: 0.7;
     }
-  }
-  .star1 {
+}
+
+.star1 {
     top: 40%;
     left: 50%;
     animation-delay: 1s;
-  }
-  .star2 {
+}
+
+.star2 {
     top: 60%;
     left: 90%;
     animation-delay: 3s;
-  }
-  .star3 {
+}
+
+.star3 {
     top: 10%;
     left: 70%;
     animation-delay: 2s;
-  }
-  .star4 {
+}
+
+.star4 {
     top: 90%;
     left: 40%;
-  }
-  .star5 {
+}
+
+.star5 {
     top: 20%;
     left: 30%;
     animation-delay: 0.5s;
-  }
-  .errorr {
+}
+
+.errorr {
     position: absolute;
     left: 100px;
     top: 400px;
     transform: translateY(-60%);
     font-family: 'Righteous', cursive;
     color: #343e49;
-  }
-  .title {
+}
+
+.title {
     font-size: 10em;
-  }
-  .subtitle {
+}
+
+.subtitle {
     font-size: 2rem;
-  }
-  .description {
+}
+
+.description {
     opacity: 0.5s;
-   }
-  .button {
+}
+
+.button {
     min-width: 7rem;
     margin-top: 3rem;
     margin-right: 0.5em;
@@ -120,28 +138,33 @@
     transition-duration: 0.2s;
     font-size: 0.75em;
     font-family: 'Righteous', cursive;
-  }
-  .button:hover {
+}
+
+.button:hover {
     color: #21252c;
-  }
-  .button--active {
+}
+
+.button--active {
     background-color: #e67e22;
     border: 2px solid #e67e22;
     color: white;
-  }
-  .button--active:hover {
-    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5s);
+}
+
+.button--active:hover {
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5s);
     color: white;
-  }
-  .astronaut {
+}
+
+.astronaut {
     position: absolute;
     width: 185px;
     height: 300px;
     left: 70%;
     top: 50%;
     transform: translate(-50%, -50%) rotate(20deg) scale(1.2);
-  }
-  .head {
+}
+
+.head {
     background-color: white;
     position: absolute;
     top: 60px;
@@ -149,8 +172,9 @@
     width: 60px;
     height: 60px;
     border-radius: 2em;
-  }
-  .head-visor-flare1 {
+}
+
+.head-visor-flare1 {
     background-color: #7f8fa6;
     position: absolute;
     top: 28px;
@@ -159,8 +183,9 @@
     height: 10px;
     border-radius: 2em;
     opacity: 0.5;
-  }
-  .head-visor-flare2 {
+}
+
+.head-visor-flare2 {
     background-color: #718093;
     position: absolute;
     top: 40px;
@@ -169,8 +194,9 @@
     height: 5px;
     border-radius: 2em;
     opacity: 0.3;
-  }
-  .backpack {
+}
+
+.backpack {
     background-color: #bfbfbf;
     position: absolute;
     top: 90px;
@@ -178,8 +204,9 @@
     width: 86px;
     height: 90px;
     border-radius: 8px;
-  }
-  .body {
+}
+
+.body {
     background-color: #e6e6e6;
     position: absolute;
     top: 115px;
@@ -187,8 +214,9 @@
     width: 70px;
     height: 80px;
     border-radius: 8px;
-  }
-  .body__chest {
+}
+
+.body__chest {
     background-color: #d9d9d9;
     position: absolute;
     top: 140px;
@@ -196,8 +224,9 @@
     width: 45px;
     height: 25px;
     border-radius: 6px;
-  }
-  .arm-left1 {
+}
+
+.arm-left1 {
     background-color: #e6e6e6;
     position: absolute;
     top: 127px;
@@ -206,8 +235,9 @@
     height: 20px;
     border-radius: 8px;
     transform: rotate(-30deg);
-  }
-  .arm-left2 {
+}
+
+.arm-left2 {
     background-color: #e6e6e6;
     position: absolute;
     top: 102px;
@@ -218,8 +248,9 @@
     transform: rotate(-12deg);
     border-top-left-radius: 8em;
     border-top-right-radius: 8em;
-  }
-  .arm-right1 {
+}
+
+.arm-right1 {
     background-color: #e6e6e6;
     position: absolute;
     top: 113px;
@@ -228,8 +259,9 @@
     height: 20px;
     border-radius: 8px;
     transform: rotate(-10deg);
-  }
-  .arm-right2 {
+}
+
+.arm-right2 {
     background-color: #e6e6e6;
     position: absolute;
     top: 78px;
@@ -240,8 +272,9 @@
     transform: rotate(-10deg);
     border-top-left-radius: 8em;
     border-top-right-radius: 8em;
-  }
-  .arm-thumb-left {
+}
+
+.arm-thumb-left {
     background-color: #e6e6e6;
     position: absolute;
     top: 110px;
@@ -250,8 +283,9 @@
     height: 6px;
     border-radius: 8em;
     transform: rotate(-35deg);
-  }
-  .arm-thumb-right {
+}
+
+.arm-thumb-right {
     background-color: #e6e6e6;
     position: absolute;
     top: 90px;
@@ -260,8 +294,9 @@
     height: 6px;
     border-radius: 8em;
     transform: rotate(20deg);
-  }
-  .wrist-left {
+}
+
+.wrist-left {
     background-color: #e67e22;
     position: absolute;
     top: 122px;
@@ -270,8 +305,9 @@
     height: 4px;
     border-radius: 8em;
     transform: rotate(-15deg);
-  }
-  .wrist-right {
+}
+
+.wrist-right {
     background-color: #e67e22;
     position: absolute;
     top: 98px;
@@ -280,8 +316,9 @@
     height: 4px;
     border-radius: 8em;
     transform: rotate(-10deg);
-  }
-  .leg-left {
+}
+
+.leg-left {
     background-color: #e6e6e6;
     position: absolute;
     top: 188px;
@@ -289,8 +326,9 @@
     width: 23px;
     height: 75px;
     transform: rotate(10deg);
-  }
-  .leg-right {
+}
+
+.leg-right {
     background-color: #e6e6e6;
     position: absolute;
     top: 188px;
@@ -298,8 +336,9 @@
     width: 23px;
     height: 75px;
     transform: rotate(-10deg);
-  }
-  .foot-left {
+}
+
+.foot-left {
     background-color: white;
     position: absolute;
     top: 240px;
@@ -311,8 +350,9 @@
     border-top-left-radius: 8em;
     border-top-right-radius: 8em;
     border-bottom: 4px solid #e67e22;
-  }
-  .foot-right {
+}
+
+.foot-right {
     background-color: white;
     position: absolute;
     top: 240px;
@@ -324,52 +364,63 @@
     border-top-left-radius: 8em;
     border-top-right-radius: 8em;
     border-bottom: 4px solid #e67e22;
-  }
-  
-  /* RESPONSIVE */
-  @media only screen and (max-width: 600px) { 
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 600px) {
     .moon {
         left: -450px;
-      }
-      .error {
+    }
+
+    .error {
         left: 20px;
         top: 350px;
-      }
-      .title {
+    }
+
+    .title {
         font-size: 8em;
-      }
-      .subtitle {
+    }
+
+    .subtitle {
         font-size: 1.3rem;
-      }
-      .description {
+    }
+
+    .description {
         opacity: 0.5s;
-       }
-  }
-  @media only screen and (max-width:420px) { 
+    }
+}
+
+@media only screen and (max-width: 420px) {
     .moon {
         left: -250px;
         height: 600px;
         width: 600px;
-      }
-      .error {
+    }
+
+    .error {
         left: 20px;
         top: 250px;
-      }
-      .title {
+    }
+
+    .title {
         font-size: 4em;
-      }
-      .subtitle {
+    }
+
+    .subtitle {
         font-size: 1rem;
-      }
-      .decription {
+    }
+
+    .decription {
         opacity: 0.5s;
         font-size: 14px;
-       }
-       .crater  {
-         display: none !important;
-       }
-       .astronaut {
+    }
+
+    .crater {
+        display: none !important;
+    }
+
+    .astronaut {
         left: 50%;
         top: 66%;;
     }
-  }
+}

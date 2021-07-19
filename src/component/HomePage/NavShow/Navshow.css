@@ -6,13 +6,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width:460px; 
+    width: 460px;
 }
-.showbar__wrapper-header{
+
+.showbar__wrapper-header {
     display: flex;
     justify-content: center;
     padding-top: 60px;
 }
+
 .showbar__wrapper-closed {
     position: absolute;
     right: 30px;
@@ -23,6 +25,7 @@
     transition: .2s linear;
     color: rgb(110, 105, 105);
 }
+
 .showbar__wrapper-content {
     display: flex;
     margin-top: 30px;
@@ -30,51 +33,60 @@
     flex-direction: column;
     justify-content: center;
 }
+
 .showbar__wrapper-content p {
     color: #7b7b7b;;
 }
+
 .showbar__wrapper-content span {
     margin-top: 7px;
     font-size: 17px;
     color: #7b7b7b;
 }
+
 .showbar__wrapper-content h4 {
     margin-top: 45px;
     color: #211f1f;
 }
+
 .h42 {
     margin-bottom: 10px;
     color: #1d1d1d;
     font-size: 15px;
     line-height: 1.5em;
-    font-family: josefin sans,sans-serif;
+    font-family: josefin sans, sans-serif;
     letter-spacing: .12em;
 
 }
+
 .images__nav-show {
     display: flex;
     margin-top: 40px;
     padding: 10px;
 }
+
 .images__nav-show img {
     margin: 0 5px;
 }
+
 .images__nav-show2 {
     display: flex;
 }
+
 .images__nav-show2 img {
     margin: 0 5px;
 }
 
- .social-button {
+.social-button {
     display: flex;
     justify-content: center;
     align-items: center;
 }
- .social-button {
-    margin-top:15px;
+
+.social-button {
+    margin-top: 15px;
     box-sizing: border-box;
-} 
+}
 
 .spin::before,
 .spin::after {
@@ -84,6 +96,7 @@
     width: 100%;
     height: 100%;
 }
+
 .spin svg {
     font-size: 19px;
     color: #8B8B8B;
@@ -92,7 +105,7 @@
 
 .spin {
     height: 34px;
-    border: 0 ;
+    border: 0;
     position: relative;
     display: flex;
     justify-content: center;
@@ -113,7 +126,8 @@
 .spin::before {
     border: 1px solid transparent;
 }
-.spin:hover >svg {
+
+.spin:hover > svg {
     color: #1d1d1d;
 }
 
@@ -124,9 +138,11 @@
     border-bottom-color: #777777;
     transition: border-top-color 0.15s linear, border-right-color 0.15s linear 0.10s, border-bottom-color 0.15s linear 0.20s;
 }
+
 .spin::after {
     border: 0 solid transparent;
 }
+
 .spin:hover::after {
     border-top: 1px solid #777777;
     border-left-width: 1px;
@@ -134,6 +150,7 @@
     transform: rotate(270deg);
     transition: transform 0.3s ease-in 0s, border-left-width 0s linear 0.35s, -webkit-transform 0.4s linear 0s;
 }
+
 .circle {
     border-radius: 100%;
     box-shadow: none;
@@ -143,6 +160,7 @@
 .circle::after {
     border-radius: 100%;
 }
+
 @media only screen and (max-width: 1024px) {
     .showbar {
         display: none;

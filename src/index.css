@@ -3,12 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 a {
     text-decoration: none;
 }
+
 li {
     list-style: none;
 }
+
 .scroll-to-top {
     position: fixed;
     bottom: 1.7rem;
@@ -20,26 +23,30 @@ li {
     border: 1px solid #ccc;
     z-index: 99;
     overflow: hidden;
-  }
-  .scroll-tt {
-      display: flex;
-      position: relative;
-      justify-content: center;
-      align-items: center;
-      width: 40px;
-      height: 40px;
-  }
+}
+
+.scroll-tt {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
 .scroll-tt svg {
-      transform: rotate(90deg);
-  }
-  @keyframes fadeIn {
+    transform: rotate(90deg);
+}
+
+@keyframes fadeIn {
     from {
-      opacity: 0;
+        opacity: 0;
     }
     to {
-      opacity: 1;
+        opacity: 1;
     }
-  }
-  .teee {
+}
+
+.teee {
     border-bottom: 1px solid #1d1d1d;
-  }
+}

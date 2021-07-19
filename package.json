@@ -2,8 +2,9 @@
   "name": "ecommerce-konsept",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://LofizDev.github.io/Funiture-Konsept",
+  "homepage": "https://LofizDev.github.io/Konsept-ShoppingCart",
   "dependencies": {
+    "@material-ui/core": "^4.12.1",
     "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -18,15 +19,16 @@
     "react-yup": "^1.21.0",
     "redux-devtools-extension": "^2.13.9",
     "swiper": "^6.7.5",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "yup": "^0.32.9"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

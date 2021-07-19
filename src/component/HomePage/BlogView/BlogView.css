@@ -14,8 +14,9 @@
 
 @media only screen and ( max-width: 1024px) {
     .banner__container img {
-        margin: 0 ;
+        margin: 0;
     }
+
     .banner__container-content {
         display: flex;
         justify-content: center;
@@ -23,7 +24,6 @@
         width: 80%;
         margin: auto;
     }
-    
-    
-    
+
+
 }

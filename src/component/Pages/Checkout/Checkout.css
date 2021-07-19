@@ -1,14 +1,15 @@
-.banner-checkout  {
+.banner-checkout {
     height: 420px;
     background-image: url(../../../assets/images/checkout.jpg);
-    background-position: center ;
+    background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .banner-checkout h1 {
-    font-family: "Josefin Sans",sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     color: #fff;
@@ -16,20 +17,24 @@
     line-height: 1.33em;
     letter-spacing: .23em;
 }
+
 .detail-checkout {
     max-width: 1300px;
     margin: 70px auto;
 }
+
 .checkout-wrapper {
     display: flex;
     justify-content: space-between;
 }
+
 .checkout-input {
     display: flex;
     flex-direction: column;
 }
+
 .checkout-input h3 {
-    font-family: "Josefin Sans",sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     color: #1d1d1d;
@@ -41,32 +46,36 @@
     line-height: 1.55em;
     letter-spacing: .18em;
 }
+
 .checkout-input label {
-    font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 15px;
     line-height: 1.8em;
     font-weight: 400;
     display: flex;
     color: #8b8b8b;
 }
-.form-gr  {
-    position: relative !important; 
+
+.form-gr {
+    position: relative !important;
 }
+
 .error {
     top: 0;
     position: relative !important;
     color: red !important;
     font-size: 1rem !important;
-  }
-  
-  .is-invalid {
-      border: 1px solid red !important;
-  }
+}
+
+.is-invalid {
+    border: 1px solid red !important;
+}
+
 .checkout-input input {
     display: inline-block;
     padding: 11px 20px;
     margin-bottom: 30px;
-    font-family: "EB Garamond",serif;
+    font-family: "EB Garamond", serif;
     font-size: 18px;
     width: 600px;
     font-style: italic;
@@ -77,18 +86,21 @@
     border: 1px solid #ddd;
     outline: 0;
     cursor: pointer;
-    transition: color .2s ease-out,background-color .2s ease-out,border-color .2s ease-out;
+    transition: color .2s ease-out, background-color .2s ease-out, border-color .2s ease-out;
 }
+
 .checkout-input input:focus {
     border: 1px solid #000;
     color: black;
 }
+
 .checkout-input textarea {
     width: 600px;
     margin-top: 24px;
 }
+
 .detail-shipping h3 {
-    font-family: "Josefin Sans",sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
     color: #1d1d1d;
     font-size: 20px;
@@ -96,9 +108,10 @@
     letter-spacing: .18em;
     margin: 25px 0;
 }
+
 .shopping__container-title {
     display: flex;
-    font-family: "Josefin Sans",sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
     color: #1d1d1d;
     font-size: 24px;
@@ -107,6 +120,7 @@
     margin: 26px 0;
     position: relative;
 }
+
 .shopping__container-title::after {
     position: absolute;
     content: '';
@@ -115,9 +129,11 @@
     height: 1px;
     background-color: #ddd;
 }
+
 .shopping__container-title :nth-child(2) {
     margin-left: 700px;
 }
+
 .show-shipping-item {
     display: flex;
     max-width: 855px;
@@ -125,7 +141,7 @@
 }
 
 .show-shipping-item h5 {
-    font-family: "Josefin Sans",sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     color: #1d1d1d;
@@ -135,6 +151,7 @@
     position: relative;
     letter-spacing: .2em;
 }
+
 .show-shipping-item h5::after {
     position: absolute;
     content: '';
@@ -144,16 +161,18 @@
     left: 0;
     background-color: #ddd;
 }
+
 .sp-price {
-    font-family: "EB Garamond",serif;
+    font-family: "EB Garamond", serif;
     font-size: 18px;
     font-weight: 400;
     font-style: italic;
     margin: 17px 0;
     color: #1d1d1d;
 }
+
 .shipping-total h6 {
-    font-family: "Josefin Sans",sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     color: #1d1d1d;
@@ -163,75 +182,92 @@
     position: relative;
     letter-spacing: .2em;
 }
+
 .shipping-total p {
-    font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 15px;
     line-height: 1.8em;
     font-weight: 400;
     color: #8b8b8b;
 }
+
 .btn-submit {
     width: 250px;
     background-color: transparent;
-    margin: 40px 0; 
+    margin: 40px 0;
     height: 58px;
     display: block;
     cursor: pointer;
     padding: 8px 52px;
     background-color: transparent;
     border: 1px solid #8b8b8b;
-    font-family: "EB Garamond",serif;
+    font-family: "EB Garamond", serif;
     font-size: 18px;
     font-weight: 400;
     font-style: italic;
     color: #1d1d1d;
     transition: .2s;
 }
+
 .btn-submit:hover {
     border: 1px solid #000;
 }
+
 /* Responsive */
-@media only screen and (max-width: 1024px) { 
+@media only screen and (max-width: 1024px) {
     .detail-checkout {
         max-width: 1000px;
-        margin:90px 70px ;
+        margin: 90px 70px;
     }
+
     .form-control {
         max-width: 250px;
         margin-right: 50px;
     }
-   textarea {
-      max-width:570px ;
-  }.error {
-      left: -50px;
-  }
-  .show-shipping-item h5::after {
-      display: none;
+
+    textarea {
+        max-width: 570px;
+    }
+
+    .error {
+        left: -50px;
+    }
+
+    .show-shipping-item h5::after {
+        display: none;
+    }
 }
-}
-@media only screen and (max-width: 768px) { 
-    .form-control,textarea {
+
+@media only screen and (max-width: 768px) {
+    .form-control, textarea {
         min-width: 600px;
     }
-   form {
-       width: 100%;
-   }
+
+    form {
+        width: 100%;
+    }
+
     .checkout-wrapper {
         flex-direction: column;
         justify-content: start;
-    }.shopping__container-title :nth-child(2) {
+    }
+
+    .shopping__container-title :nth-child(2) {
         position: absolute;
         right: 0;
     }
 }
-@media only screen and (max-width: 420px) { 
-    .form-control,textarea {
+
+@media only screen and (max-width: 420px) {
+    .form-control, textarea {
         min-width: 120px;
     }
+
     textarea {
         max-width: 100%;
     }
-   form {
-       width: 100%;
-   }
+
+    form {
+        width: 100%;
+    }
 }
