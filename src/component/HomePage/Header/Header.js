@@ -8,6 +8,7 @@ import love from '../../../assets/images/love.svg';
 import cartt from '../../../assets/images/cart.webp';
 // Redux
 import {connect} from 'react-redux';
+import {UrlNames} from '../../../UrlNames';
 
 // ShowTab
 function showTab() {
@@ -65,7 +66,7 @@ function Header({cart}) {
               <div className="header__wrapper-right">
                 <img className="user" src={user} alt="icon"/>
                 <img className="love" src={love} alt="icon"/>
-                <Link to="/Cart">
+                <Link to={`${UrlNames.CART}`}>
                   <div className="count-cart">
                     <img width="22px" className="cart" src={cartt} alt="icon"/>
                     <span>{cartCount}</span>
@@ -92,7 +93,7 @@ function Header({cart}) {
                   );
                 })}
                 <li>
-                  <Link to="/Cart">CART</Link>
+                  <Link to={`${UrlNames.CART}`}>CART</Link>
                 </li>
               </ul>
 

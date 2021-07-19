@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom';
 import './PageNotFound.css';
+import {UrlNames} from '../../../UrlNames';
 
 export default function PageNotFound() {
   return (
@@ -19,7 +20,7 @@ export default function PageNotFound() {
               <div className="title">404</div>
               <div className="subtitle">Hmmm...</div>
               <div className="decription">It looks one of the developers fell asleep</div>
-              <Link to="/">
+              <Link to={`${UrlNames.HOME}`}>
                 <button className="button button--active">GO BACK</button>
               </Link>
               <button className="button">CONTACT</button>

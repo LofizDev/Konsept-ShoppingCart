@@ -7,5 +7,7 @@ export const UrlNames = {
   CHECKOUT: '/Konsept-ShoppingCart/CHECKOUT',
   NOT_FOUND: '/Konsept-ShoppingCart/pagenotfound',
   PRODUCT: '/Konsept-ShoppingCart/product',
-  PRODUCT_ID: '/Konsept-ShoppingCart/product/:id'
+  PRODUCT_ID: '/Konsept-ShoppingCart/product/:id',
+  PORTFOLIO:'',
+  BLOG:''
 };

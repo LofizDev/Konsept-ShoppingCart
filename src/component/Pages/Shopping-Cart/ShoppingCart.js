@@ -6,6 +6,7 @@ import {connect} from 'react-redux';
 import './ShoppingCart.css';
 import HeaderLayout from '../../Layout/LayoutHeader/HeaderLayout';
 import CartItem from '../../CartItem/CartItem';
+import {UrlNames} from '../../../UrlNames';
 
 function ShoppingCart({cart}) {
   // Total Price
@@ -29,7 +30,7 @@ function ShoppingCart({cart}) {
               <img className="cart-empty" width="500px"
                    src={emptycart}
                    alt="cart empty"/>
-              <Link to="/SHOP">
+              <Link to={`${UrlNames.SHOP}`}>
                 <button className="btn-return">Return To Shop</button>
               </Link>
             </>
@@ -86,7 +87,7 @@ function ShoppingCart({cart}) {
                   <h3>TOTAL</h3>
                   <h5 style={{marginLeft: '125px'}}>${totalPrice}.00</h5>
                 </div>
-                <Link to="/CHECKOUT">
+                <Link to={`${UrlNames.CHECKOUT}`}>
                   <p className="checkout">Proceed To Checkout</p>
                 </Link>
               </div>

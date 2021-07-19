@@ -8,6 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 // Redux
 import {connect} from 'react-redux';
 import {addToCart, loadCurrentItem} from '../../../redux/shopping/shopping-action';
+import {UrlNames} from '../../../UrlNames';
 // CALL IT ONCE IN MY APP
 if (typeof window !== 'undefined') {
   injectStyle();
@@ -30,7 +31,7 @@ function Product({product, addToCart, loadCurrentItem}) {
                 </div>
                 <div className="icon__cart">
                   <img className="love" src={love} alt="icon"/>
-                  <Link to={`/product/${product.id}`}>
+                  <Link to={`${UrlNames.PRODUCT_ID}/${product.id}`}>
                     <img onClick={() => loadCurrentItem(product)} alt="icon" className="view" src={view}/>
                   </Link>
                 </div>

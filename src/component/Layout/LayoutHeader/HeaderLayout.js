@@ -8,6 +8,7 @@ import love from '../../../assets/images/love.svg';
 import cartt from '../../../assets/images/cart.webp';
 // Redux
 import {connect} from 'react-redux';
+import {UrlNames} from '../../../UrlNames';
 
 function HeaderLayout({cart}) {
   //Count Cart
@@ -58,10 +59,10 @@ function HeaderLayout({cart}) {
                       );
                     })}
                     <li>
-                      <Link to="PageNotFound">PORTFOLIO</Link>
+                      <Link to={`${UrlNames.NOT_FOUND}`}>PORTFOLIO</Link>
                     </li>
                     <li>
-                      <a href="PageNotFound">BLOG</a>
+                      <a href={`${UrlNames.NOT_FOUND}`}>BLOG</a>
                     </li>
                   </ul>
                   <div className="header-cart-tab-mobi" id="show__nav-mobi" onClick={shownavmobii}>
@@ -75,7 +76,7 @@ function HeaderLayout({cart}) {
                 <img className="user" alt="icon" src={user}/>
                 <img className="love" alt="icon" src={love}/>
 
-                <Link to="/Cart">
+                <Link to={`${UrlNames.CART}`}>
                   <div className="count-cart">
                     <img width="22px" className="cart" alt="cart" src={cartt}/>
                     <span>{cartCount}</span>
