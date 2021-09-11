@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Konsept-ShoppingCart/static/css/main.8d99ea36.chunk.css",
-    "main.js": "/Konsept-ShoppingCart/static/js/main.5f45eba5.chunk.js",
-    "main.js.map": "/Konsept-ShoppingCart/static/js/main.5f45eba5.chunk.js.map",
+    "main.js": "/Konsept-ShoppingCart/static/js/main.7e28b5b1.chunk.js",
+    "main.js.map": "/Konsept-ShoppingCart/static/js/main.7e28b5b1.chunk.js.map",
     "runtime-main.js": "/Konsept-ShoppingCart/static/js/runtime-main.e56c9e02.js",
     "runtime-main.js.map": "/Konsept-ShoppingCart/static/js/runtime-main.e56c9e02.js.map",
     "static/css/2.0405cd9b.chunk.css": "/Konsept-ShoppingCart/static/css/2.0405cd9b.chunk.css",
@@ -50,6 +50,6 @@
     "static/css/2.0405cd9b.chunk.css",
     "static/js/2.316d1f07.chunk.js",
     "static/css/main.8d99ea36.chunk.css",
-    "static/js/main.5f45eba5.chunk.js"
+    "static/js/main.7e28b5b1.chunk.js"
   ]
 }
